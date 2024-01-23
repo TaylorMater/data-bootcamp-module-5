@@ -6,7 +6,9 @@ Riley Taylor
 
 **Setup and Related Info**
 
+The python notebook of choice is located in the Pymaceuticals directory in this repo. Please note that at one point I imported numpy to handle the check for outliers in the final tumor volume for various drugs. It could have easily been done without it, but I noticed that the series had a .to_numpy() method that was slightly more convenient to me than checking to see how to cast the data to a list some other way.
 
+Let me know if you have any questions.
 
 
 -----------------------------------------
